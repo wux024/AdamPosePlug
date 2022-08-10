@@ -1,0 +1,37 @@
+# Experiment information
+Task: KoiPose
+Experimenter: Adam Wiveion
+
+# Path
+data_file_path: AdamPoseData\pose-3d-0512\koipose0.csv
+video_file_path: AdamPoseData\video3d-0512\koipose0.mp4
+
+# Parameter
+fps: 30
+keypoints: [fish_head,dorsal_fin_0,dorsal_fin_1,dorsal_fin_2,dorsal_fin_3,
+            fish_body_r,fish_body_l,
+            fish_eye_r,pectoral_tail_root_r,pectoral_tail_up_r,pectoral_tail_middle_r,pectoral_tail_down_r,
+            fish_eye_l,pectoral_tail_root_l,pectoral_tail_up_l,pectoral_tail_middle_l,pectoral_tail_down_l,
+            fish_tail,tail_fin_up,tail_fin_middle,tail_fin_down]
+
+constraints: [
+["fish_head","fish_eye_r"],
+["fish_head","fish_eye_l"],
+["fish_head","dorsal_fin_0","dorsal_fin_1","dorsal_fin_2","dorsal_fin_3"],
+["fish_head","fish_body_r","fish_tail","tail_fin_up"],
+["fish_head","fish_body_r","fish_tail","tail_fin_middle"],
+["fish_head","fish_body_r","fish_tail","tail_fin_down"],
+["fish_head","fish_body_l","fish_tail","tail_fin_up"],
+["fish_head","fish_body_l","fish_tail","tail_fin_middle"],
+["fish_head","fish_body_l","fish_tail","tail_fin_down"],
+["tail_fin_up","tail_fin_middle","tail_fin_down"],
+["fish_head","pectoral_tail_root_r","pectoral_tail_up_r"],
+["fish_head","pectoral_tail_root_r","pectoral_tail_middle_r"],
+["fish_head","pectoral_tail_root_r","pectoral_tail_down_r"],
+["pectoral_tail_up_r","pectoral_tail_middle_r","pectoral_tail_down_r"],
+["fish_head","pectoral_tail_root_l","pectoral_tail_up_l"],
+["fish_head","pectoral_tail_root_l","pectoral_tail_middle_l"],
+["fish_head","pectoral_tail_root_l","pectoral_tail_down_l"],
+["pectoral_tail_up_l","pectoral_tail_middle_l","pectoral_tail_down_l"]
+]
+
