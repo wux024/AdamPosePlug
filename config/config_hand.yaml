@@ -1,0 +1,22 @@
+# Experiment information
+Task: HandPose
+Experimenter: Adam Wiveion
+
+# Path
+data_file_path: AdamPoseData\pose3d-hand\hand_4_cam.csv
+video_file_path: AdamPoseData\video3d-hand\hand_4_cam.mp4
+
+# Parameter
+fps: 30
+keypoints: [base, MCP1, PIP1, DIP1, tip1, MCP2, PIP2, DIP2, tip2, MCP3, PIP3, DIP3,
+            tip3, MCP4, PIP4, DIP4, tip4, MCP5, PIP5, DIP5, tip5]
+constraints: [
+   ["base", "MCP1"], ["MCP1", "PIP1"], ["PIP1", "DIP1"], ["DIP1", "tip1"],
+   ["base", "MCP2"], ["MCP2", "PIP2"], ["PIP2", "DIP2"], ["DIP2", "tip2"],
+   ["base", "MCP3"], ["MCP3", "PIP3"], ["PIP3", "DIP3"], ["DIP3", "tip3"],
+   ["base", "MCP4"], ["MCP4", "PIP4"], ["PIP4", "DIP4"], ["DIP4", "tip4"],
+   ["base", "MCP5"], ["MCP5", "PIP5"], ["PIP5", "DIP5"], ["DIP5", "tip5"]
+]
+
+
+
