@@ -3,8 +3,7 @@
 It is a sub-tool of AdamPose that focuses more on diverse 2D and 3D pose estimation visualizations and can also display motion parameters for selected key points.
 
 ## Koi
-![4b9f5c4593065f3e6cd2482d007ba7d6 00_00_00-00_00_30](https://user-images.githubusercontent.com/54109895/188399204-f86cbc5b-6637-402a-89fb-3e6389d720e1.gif)
-
+![4b9f5c4593065f3e6cd2482d007ba7d6 00_00_00-00_00_30](https://user-images.githubusercontent.com/54109895/188402229-74be0b3a-dd58-416f-8310-2f34e74c13e7.gif)
 
 Please check out the following references for more details:
 
