@@ -18,3 +18,13 @@ Please check out the following references for more details:
         volume = {110},
         url = {https://www.sciencedirect.com/science/article/pii/S0952197622000045},
         year = {2022}}
+   @article {Wu2022.09.07.507033,
+	      author = {Xin Wu and Jipeng Huang and Yonghui Wang and Lianming Wang},
+	      title = {Pose estimation-based experimental system for analyzing fish swimming},
+      	elocation-id = {2022.09.07.507033},
+	      year = {2023},
+	      doi = {10.1101/2022.09.07.507033},
+      	publisher = {Cold Spring Harbor Laboratory},
+	      URL = {https://www.biorxiv.org/content/early/2023/10/15/2022.09.07.507033},
+	      eprint = {https://www.biorxiv.org/content/early/2023/10/15/2022.09.07.507033.full.pdf},
+	      journal = {bioRxiv}}
