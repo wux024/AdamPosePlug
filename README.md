@@ -19,7 +19,7 @@ Please check out the following references for more details:
         url = {https://www.sciencedirect.com/science/article/pii/S0952197622000045},
         year = {2022}}
 ```
-@article {Wu2022.09.07.507033,
+@article{Wu2022.09.07.507033,
    author = {Xin Wu and Jipeng Huang and Yonghui Wang and Lianming Wang},
    title = {Pose estimation-based experimental system for analyzing fish swimming},
    elocation-id = {2022.09.07.507033},
